@@ -116,7 +116,7 @@ public class Main {
 		instructorManager.Add(instructor1);
 
 		StudentManager studentManager = new StudentManager();
-		studentManager.Add(student1);
+		studentManager.Delete(student1);
 	
 		
 	}
